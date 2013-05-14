@@ -1,0 +1,45 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@variables {
+	rojo: #DF0101;
+	naranjo: #FF8000;
+	amarillo: #E7C101;
+	verde: #088A08;	
+}
+
+body {
+	background: var(rojo);/*#041C3E;*/
+}
+
+.chart{
+	border: 1px solid black;
+}
+svg{
+	border: 1px dashed silver;
+}
+#bars{
+}
+#circles{
+}
+#scatter{
+}
+
+
+.axis path, line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+
+
+
+
+
